@@ -90,7 +90,7 @@ const RequestModal = ({ isOpen, onClose }) => {
             <div className="space-y-2">
               <label htmlFor="time" className="block text-sm font-medium">Time</label>
               <div className="relative">
-                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                   </svg>
@@ -98,7 +98,7 @@ const RequestModal = ({ isOpen, onClose }) => {
                 <input
                   type="time"
                   id="time"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-black focus:ring-1 focus:ring-black transition-colors"
+                  className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:border-black focus:ring-1 focus:ring-black transition-colors"
                 />
               </div>
             </div>
