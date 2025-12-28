@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './ui/Button';
 import illustrationImage from '../assets/Illustration.png';
 
-const Header = () => {
+const Header = ({ onOpenModal }) => {
   return (
     <header className="container px-6 mx-auto py-10 flex flex-col lg:flex-row items-center justify-between">
       {/* Left Section */}
@@ -20,6 +20,7 @@ const Header = () => {
           <Button
             text="Book a Appointment"
             className="bg-black text-white w-full md:w-auto"
+            onClick={onOpenModal}
           />
         </div>
       </div>

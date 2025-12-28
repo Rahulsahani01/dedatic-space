@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { FaBars, FaStar } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 
-const Navbar = () => {
+const Navbar = ({ onOpenModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="sticky top-0 z-50 bg-white shadow-sm">
@@ -50,6 +50,7 @@ const Navbar = () => {
             <Button
               text="Request To Connect"
               className="border border-black hover:bg-black hover:text-white duration-300"
+              onClick={onOpenModal}
             />
           </ul>
         </div>
@@ -83,6 +84,7 @@ const Navbar = () => {
                 <Button
                   text="Request a quote"
                   className="border border-black hover:bg-black hover:text-white duration-300"
+                  onClick={onOpenModal}
                 />
               </ul>
             </div>
