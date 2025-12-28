@@ -8,9 +8,9 @@ import member6 from './assets/member6.png';
 export const navbarLinks = [
   { id: 1, text: 'About us', href: '#about-us' },
   { id: 2, text: 'Services', href: '#services' },
-  { id: 3, text: 'Use Cases', href: '#use-cases' },
-  { id: 4, text: 'Pricing', href: '#pricing' },
-  { id: 5, text: 'Blog', href: '#blog' },
+  { id: 3, text: 'Apply for Internship', href: '#apply-for-internship', isNew: true },
+  // { id: 4, text: 'Pricing', href: '#pricing' },
+  { id: 4, text: 'Case Studies', href: '#case-studies' },
 ];
 
 export const workingProccess = [

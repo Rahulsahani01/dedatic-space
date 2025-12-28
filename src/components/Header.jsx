@@ -18,7 +18,7 @@ const Header = () => {
             cloud solutions, and enterprise software.
           </p>
           <Button
-            text="Book a consultation"
+            text="Book a Appointment"
             className="bg-black text-white w-full md:w-auto"
           />
         </div>

@@ -2,14 +2,14 @@ import logoImage from '../assets/Frame 9.png';
 import Button from './ui/Button';
 import { navbarLinks } from '../data';
 import { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaStar } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="relative">
-      <nav className="container mx-auto px-6 py-8 flex justify-between items-center gap-5 w-full">
+    <div className="sticky top-0 z-50 bg-white shadow-sm">
+      <nav className="container mx-auto px-6 py-4 flex justify-between items-center gap-5 w-full">
         {/* Logo */}
         <div className="image">
           <a href="/">
@@ -30,15 +30,25 @@ const Navbar = () => {
           <ul className="flex justify-center items-center gap-[40px]">
             {navbarLinks.map((navLink) => {
               return (
-                <li key={navLink.id} className="whitespace-nowrap">
-                  <a href={navLink.href}>{navLink.text}</a>
+                <li
+                  key={navLink.id}
+                  className={`whitespace-nowrap px-3 py-1 rounded-full duration-300 hover:bg-black hover:text-white ${
+                    navLink.isNew
+                      ? 'border-2 border-yellow-400 shadow-md'
+                      : ''
+                  }`}
+                >
+                  <a href={navLink.href} className="flex items-center gap-2">
+                    {navLink.text}
+                    {navLink.isNew && <FaStar className="text-yellow-500" />}
+                  </a>
                 </li>
               );
             })}
 
             {/* Button */}
             <Button
-              text="Request a quote"
+              text="Request To Connect"
               className="border border-black hover:bg-black hover:text-white duration-300"
             />
           </ul>
@@ -50,8 +60,23 @@ const Navbar = () => {
               <ul className="px-8 space-y-4">
                 {navbarLinks.map((navLink) => {
                   return (
-                    <li key={navLink.id} className="whitespace-nowrap">
-                      <a href={navLink.href}>{navLink.text}</a>
+                    <li
+                      key={navLink.id}
+                      className={`whitespace-nowrap px-3 py-1 rounded-full duration-300 hover:bg-black hover:text-white w-fit ${
+                        navLink.isNew
+                          ? 'border-2 border-yellow-400 shadow-md'
+                          : ''
+                      }`}
+                    >
+                      <a
+                        href={navLink.href}
+                        className="flex items-center gap-2"
+                      >
+                        {navLink.text}
+                        {navLink.isNew && (
+                          <FaStar className="text-yellow-500" />
+                        )}
+                      </a>
                     </li>
                   );
                 })}
