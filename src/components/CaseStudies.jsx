@@ -5,7 +5,7 @@ const CaseStudies = () => {
   return (
     <section className="mx-auto container px-6 py-12">
       <SectionHeading
-        text="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
+        text="Explore real-world examples of how our IT solutions have helped businesses build, scale, and optimize digital systems."
         heading="Case Studies"
       />
 

@@ -9,12 +9,13 @@ const Header = () => {
       <div className='lg:w-1/2"'>
         <div className="w-full space-y-6">
           <h1 className="w-4/4 md:w-2/3 text-5xl md:text-6xl font-medium">
-            Navigating the digital landscape for success
+            Navigating the Digital Landscape with Smart IT Solutions
           </h1>
           <p className="w-5/6 md:w-4/9">
-            Our digital marketing agency helps businesses grow and succeed
-            online through a range of services including SEO, PPC, social media
-            marketing, and content creation.
+            We help businesses design, build, 
+            and scale powerful digital products 
+            through web development, mobile apps,
+            cloud solutions, and enterprise software.
           </p>
           <Button
             text="Book a consultation"

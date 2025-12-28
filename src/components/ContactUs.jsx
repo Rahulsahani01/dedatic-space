@@ -8,7 +8,7 @@ const ContactUs = () => {
       <div className="heading mb-12">
         <SectionHeading
           heading="Contact Us"
-          text="Connect with Us: Let's Discuss Your Digital Marketing Needs"
+          text="Discuss your software, cloud, and infrastructure requirements with our experts."
         />
       </div>
 

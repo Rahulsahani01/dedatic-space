@@ -16,33 +16,33 @@ export const navbarLinks = [
 export const workingProccess = [
   {
     id: '01',
-    title: 'Consultation',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Consultation & Requirement Analysis',
+    text: 'We begin by understanding your business objectives, technical requirements, and challenges to clearly define the project scope and expectations.',
   },
   {
     id: '02',
-    title: 'Research and Strategy Development',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Planning & Solution Design',
+    text: 'Our team designs the system architecture, selects the right technology stack, and prepares a detailed implementation plan aligned with your goals.',
   },
   {
     id: '03',
-    title: 'Implementation',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Development & Implementation',
+    text: 'We build and integrate scalable, secure solutions following best engineering practices and industry standards.',
   },
   {
     id: '04',
-    title: 'Monitoring and Optimization',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Testing & Quality Assurance',
+    text: 'Comprehensive testing is performed to ensure performance, security, reliability, and compatibility across environments.',
   },
   {
     id: '05',
-    title: 'Reporting and Communication',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Deployment & Go-Live Support',
+    text: 'We deploy the solution to production and provide go-live support to ensure a smooth and stable release.',
   },
   {
     id: '06',
-    title: 'Continual Improvement',
-    text: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+    title: 'Maintenance & Continuous Improvement',
+    text: 'Post-deployment, we monitor, optimize, and enhance the system to keep it secure, scalable, and future-ready.',
   },
 ];
 

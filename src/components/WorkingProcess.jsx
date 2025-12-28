@@ -8,7 +8,7 @@ const WorkingProcess = () => {
     <section className="mx-auto container px-6">
       <div className="heading mb-10">
         <SectionHeading
-          text="Step-by-Step Guide to Achieving Your Business Goals Step-by-Step Guide to Achieving Your Business Goals"
+          text="A Step-by-Step Approach to Building Reliable Digital Solutions"
           heading="Our Working Process"
         />
       </div>

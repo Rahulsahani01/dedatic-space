@@ -16,7 +16,7 @@ const Services = () => {
     <section id="services" className="mx-auto container px-6 py-8">
       <SectionHeading
         heading="Services"
-        text="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
+        text="At our IT services company, we provide end-to-end technology solutions to help businesses design, build, and scale reliable digital systems."
       />
 
       <div>
@@ -119,8 +119,7 @@ const Services = () => {
           <div className="left flex flex-col gap-5">
             <h3 className="font-medium text-3xl">Let’s make things happen</h3>
             <p className="w-full md:w-1/2">
-              Contact us today to learn more about how our digital marketing
-              services can help your business grow and succeed online.
+              Contact us today to discuss how our IT solutions can help you build, scale, and optimize reliable digital systems for your business.
             </p>
             <Button
               text="Get your free proposal"

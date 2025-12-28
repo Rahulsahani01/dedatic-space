@@ -9,8 +9,8 @@ const Team = () => {
     <section className="mx-auto container px-6 py-12">
       <div className="heading">
         <SectionHeading
-          text="Meet the skilled and experienced team behind our successful digital marketing strategies"
-          heading="Team"
+          text="Meet the skilled and experienced team behind our innovative technology solutions"
+          heading="Team & Contributers"
         />
       </div>
 

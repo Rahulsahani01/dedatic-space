@@ -18,10 +18,6 @@
 
 - Node.js: Version 14 or higher
 
-## Pictures
-
-<img src="https://i.imgur.com/bMbUbTc.jpeg" alt="Image">
-
 ## Installation :
 
 1. Clone the repository:

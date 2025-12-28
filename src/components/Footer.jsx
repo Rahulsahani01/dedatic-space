@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="col-2 py-15 flex flex-col lg:flex-row gap-5 items-center justify-between">
           <div className="left space-y-5 text-center lg:text-start">
-            <SectionHeading heading="Contact us:" />
+            <SectionHeading heading="Contact Info:" />
             <p>Email: info@dedactics.com</p>
             <p>Phone: +91 9625331960</p>
             <p>
@@ -59,7 +59,7 @@ const Footer = () => {
               <button>
                 <Button
                   className="bg-[#B9FF66] text-black"
-                  text="Subscribe to news"
+                  text="Subscribe to Get Updates"
                 />
               </button>
             </form>

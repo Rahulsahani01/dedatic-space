@@ -29,7 +29,7 @@ const Testimonials = () => {
       <section className="mx-auto container px-8 py-12">
         <div className="heading mx-auto container py-12">
           <SectionHeading
-            text="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
+            text="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our IT Services"
             heading="Testimonials"
           />
         </div>
